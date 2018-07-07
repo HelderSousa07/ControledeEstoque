@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Controle de Estoque</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings Formulário Produto -->
+    <string name="nome_produto">Produto:</string>
+    <string name="categoria_produto">Categoria:</string>
+    <string name="tipo_produto">Tipo:</string>
+    <string name="foto_produto">Foto do Produto</string>
+    <string name="salvar">Salvar</string>
+    <string name="quantidade">Quantidade:</string>
+    <string name="gelo">Gelo</string>
+    <string name="refrigerante">Refrigerante</string>
+    <string name="ceveja">Ceveja</string>
+    <string name="transition_key">qq_coisa</string>
+
+    <!--  -->
+
+
+</resources>

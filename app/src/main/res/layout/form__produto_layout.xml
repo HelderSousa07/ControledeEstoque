@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Views.CadastrarNovoProduto_Activity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image_foto_produto"
+            android:layout_width="105dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/foto_produto"
+            android:src="@drawable/ic_add_a_photo_black_24dp" />
+
+        <TextView
+            android:id="@+id/tv_Nome_Produto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/nome_produto"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edt_Nome_Produto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/tv_Categoria_Produto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/categoria_produto"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edt_Categoria_Produto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="text"
+            />
+
+        <TextView
+            android:id="@+id/tv_tipo_Produto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/tipo_produto"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edt_tipo_Produto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="text"
+            />
+
+        <TextView
+            android:id="@+id/tv_qtd_Produto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/quantidade"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edt_qtd_Produto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            />
+
+        <Button
+            android:id="@+id/btn_Salvar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+
+            android:text="@string/salvar" />
+
+    </LinearLayout>
+
+</ScrollView>
